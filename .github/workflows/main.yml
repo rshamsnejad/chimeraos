@@ -1,5 +1,5 @@
 name: System image build
-on: push
+on: [ push, workflow_dispatch ]
 jobs:
   build:
     name: System image build
