@@ -56,11 +56,6 @@ export PACKAGES="\
 	lib32-libva-intel-driver \
 	xf86-video-intel \
 	intel-media-driver \
-	nvidia \
-	opencl-nvidia \
-	lib32-opencl-nvidia \
-	nvidia-utils \
-	lib32-nvidia-utils \
 	nvidia-prime \
 	ttf-liberation \
 	wqy-zenhei \
@@ -140,6 +135,13 @@ export PACKAGES="\
 	chaotic-aur/boxtron \
 	chaotic-aur/rtl88x2bu-dkms-git \
 "
+### Original NVIDIA packages :
+#	nvidia \
+#	opencl-nvidia \
+#	lib32-opencl-nvidia \
+#	nvidia-utils \
+#	lib32-nvidia-utils \
+### They are replaced below by their 470xx versions from the AUR
 
 export AUR_PACKAGES="\
 	frzr \
@@ -156,6 +158,13 @@ export AUR_PACKAGES="\
 	gamescope-session-git \
 	srt-live-server \
 	r8152-dkms \
+	nvidia-470xx-dkms \
+	opencl-nvidia-470xx \
+	lib32-opencl-nvidia-470xx \
+	nvidia-470xx-utils \
+	lib32-nvidia-470xx-utils \
+	nvidia-470xx-settings \
+	libxnvctrl-470xx \
 "
 
 export SERVICES="\
