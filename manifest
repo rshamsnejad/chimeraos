@@ -166,6 +166,7 @@ export AUR_PACKAGES="\
 	lib32-nvidia-470xx-utils \
 	nvidia-470xx-settings \
 	libxnvctrl-470xx \
+	xpadneo-dkms \
 "
 
 export SERVICES="\
