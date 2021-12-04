@@ -170,13 +170,6 @@ export AUR_PACKAGES="\
 	nvidia-470xx-settings \
 	libxnvctrl-470xx \
 	xpadneo-dkms \
-	nvidia-470xx-dkms \
-	opencl-nvidia-470xx \
-	lib32-opencl-nvidia-470xx \
-	nvidia-470xx-utils \
-	lib32-nvidia-470xx-utils \
-	nvidia-470xx-settings \
-	libxnvctrl-470xx \
 "
 
 export SERVICES="\
